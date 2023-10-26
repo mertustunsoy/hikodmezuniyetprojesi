@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+        
+        <img src="/20231024_231107_0000.png" width="30" height="30" alt="">
+        <a class="navbar-brand navbar-logo" href="#">Türkiye Yüzyılı</a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Ana Sayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Projeler</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Hakkında</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Kurumsal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>İletişim</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    
+        <div class="bg">
+            <canvas id='c'></canvas>
+            <div class="container ">
+                <div class="row pt-5">
+                    
+                    <div class="col-8">
+                        <h1 class="display-3">Geçmişe yolculuğa hazır mısın?</h1>
+                        <p class="text-light text-center">Biz Hazırız Bile</p>
+  
+                        <p class="text-light h5 pt-5 ">100 Yılda gerçekleşen önemli olaylar</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://www.yuzuncuyil.gov.tr/images/100.png" class=" float-end ms-5" width="360" height="360" alt="">
+                    </div>
+                </div>
+                 <div class="timeline pt-5">
+                  
+                    <div class="row">
+                        
+                        <article class="col-sm-4 mb-2">
+                          <div class="row">
+                            <div class="col-1">
+                              <h6 class="text-white-50">01</h6>
+                            </div>
+                            <div class="col-11">
+                            <ion-icon class="h-10 w-10" name="chevron-forward-outline"></ion-icon>
+                              <span class="small ms-1">29 Ekim 1923</span>
+                              <h6 class="mt-2">
+                                <strong>
+                                    Türkiye Cumhuriyeti'nin kuruluşu.
+                                </strong>
+                              </h6>
+                             
+                                
+                              </ul>
+                            </article>      
+                        <article class="col-sm-4 mb-2">
+                          <div class="row">
+                            <div class="col-1">
+                              <h6 class="text-white-50">02</h6>
+                            </div>
+                            <div class="col-11">
+                            <ion-icon class="h-10 w-10" name="chevron-forward-outline"></ion-icon>
+                              <span class="small ms-1">1 Kasım 1923</span>
+                              <h6 class="mt-2">
+                                <strong>
+                                    Atatürk'ün cumhurbaşkanı seçilmesi.
+                                </strong>
+                              </h6>
+                             
+                                
+                              </ul>
+                            </article>      
+                        <article class="col-sm-4 mb-2">
+                          <div class="row">
+                            <div class="col-1">
+                              <h6 class="text-white-50">03</h6>
+                            </div>
+                            <div class="col-11">
+                            <ion-icon class="h-10 w-10" name="chevron-forward-outline"></ion-icon>
+                              <span class="small ms-1">1924 Anayasası'nın kabulü</span>
+                              <h6 class="mt-2">
+                                <strong>
+                                    Türkiye'nin ilk demokratik anayasasının kabul edilmesi.
+                                </strong>
+                              </h6>
+                             
+                                
+                              </ul>
+                            </article>      
+                        <article class="col-sm-4 mb-2">
+                          <div class="row">
+                            <div class="col-1">
+                              <h6 class="text-white-50">04</h6>
+                            </div>
+                            <div class="col-11">
+                            <ion-icon class="h-10 w-10" name="chevron-forward-outline"></ion-icon>
+                              <span class="small ms-1">17 Şubat 1926</span>
+                              <h6 class="mt-2">
+                                <strong>
+                                    Türk Medeni Kanunu'nun kabulü
+                                </strong>
+                              </h6>
+                             
+                                
+                              </ul>
+                            </article>      
+                        <article class="col-sm-4 mb-2">
+                          <div class="row">
+                            <div class="col-1">
+                              <h6 class="text-white-50">05</h6>
+                            </div>
+                            <div class="col-11">
+                            <ion-icon class="h-10 w-10" name="chevron-forward-outline"></ion-icon>
+                              <span class="small ms-1">1928</span>
+                              <h6 class="mt-2">
+                                <strong>
+                                    Latin alfabesinin kabulü
+                                </strong>
+                              </h6>
+                             
+                                
+                              </ul>
+                            </article>      
+                        <article class="col-sm-4 mb-2">
+                          <div class="row">
+                            <div class="col-1">
+                              <h6 class="text-white-50">06</h6>
+                            </div>
+                            <div class="col-11">
+                            <ion-icon class="h-10 w-10" name="chevron-forward-outline"></ion-icon>
+                              <span class="small ms-1">1930</span>
+                              <h6 class="mt-2">
+                                <strong>
+                                    sanayileşme hamlesi
+                                </strong>
+                              </h6>
+                             
+                                
+                              </ul>
+                            </article>      
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="ypzka bg-secondary py-5 ms-5">
+            <h1 class ="mt-5 text-center">
+              Atatürk'ün sesinde gençliğe hitabe
+
+            </h1>
+            
+                
+            <video width="400" height="300" controls>
+              <source src="Atatürk_ün Kendi Sesinden - Gençliğe Hitabe (Ai Cover)(720P_HD).mp4" type="video/mp4" poster="poster.jpg" playsinline>
+              <script>
+                var video = document.querySelector("video");
+                var speed = 1;
+                video.playbackRate = speed;
+              </script>
+            </video>
+                  
+        </div>
+
+        
+
+        <main role="main">
+
+
+          <div class="container m">
+            <h1 class ="mt-5 text-center mb-3">
+              Türkiye Cumhuriyeti'nin kuruluşunda önemli rol oynayan üç insan
+  
+            </h1>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Ataturk1930s.jpg" alt="">
+                <h2 class="text-danger mt-2">Mustafa Kemal Atatürk</h2>
+                <p class="text-light">Türkiye Cumhuriyeti'nin kurucusu ve ilk cumhurbaşkanıdır. Samsun'da başlattığı Milli Mücadele ile Osmanlı Devleti'nin yıkılışını ve Türkiye Cumhuriyeti'nin kurulmasını sağlamıştır.</p>
+                <p><a class="btn btn-secondary" href="https://tr.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk">Detaylı bilgi »</a></p>
+              </div>
+              <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%C4%B0smet_%C4%B0n%C3%B6n%C3%BC_Renkli.jpg/330px-%C4%B0smet_%C4%B0n%C3%B6n%C3%BC_Renkli.jpg" alt="">
+                <h2 class="text-danger mt-2">İsmet İnönü</h2>
+                <p class="text-light">Kurtuluş Savaşı'nın başkomutanıdır. Lozan Barış Antlaşması'nı imzalayarak Türkiye'nin bağımsızlığını uluslararası alanda tanınmasını sağlamıştır.</p>
+                <p><a class="btn btn-secondary" href="https://tr.wikipedia.org/wiki/%C4%B0smet_%C4%B0n%C3%B6n%C3%BC">Detaylı bilgi »</a></p>
+              </div>
+              <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"" src="https://www.ataturktoday.com/SilahArkadaslariMilliMucadele/Atat%C3%BCrk%2026.jpg" alt="">
+                <h2 class="text-danger mt-2">Atatürk'ün silah arkadaşları</h2>
+                <p class="text-light">Atatürk'ün Milli Mücadele'de yanında yer alan ve onun liderliğini destekleyen kişilerdir. Bu kişiler arasında Fevzi Çakmak, Rauf Orbay, Kazım Karabekir, Ali Fuat Cebesoy, gibi isimler yer almaktadır.</p>
+                <p><a class="btn btn-secondary" href="https://www.haberturk.com/ataturk-un-arkadaslari-ve-isimleri-mustafa-kemal-ataturk-un-arkadaslari-kimlerdir-hteg-3579022">Detaylı bilgi »</a></p>
+              </div>
+              
+            </div>
+        
+        
+
+        
+            <hr class="featurette-divider">
+            <h1 class ="mt-5 text-center">
+              Gelecek hakkında varsayım
+  
+            </h1>
+            <div class="row featurette border-bottom">
+              <div class="col-md-7">
+                <h2 class="featurette-heading text-success">İstanbul'un tamamen yeni bir ulaşım sistemiyle çevrili olduğu bir dünya. <span class="text-muted">İnsanlar uçan arabalarla veya hızlı trenlerle seyahat ediyor. </span></h2>
+              </div>
+              <div class="col-md-5">
+                <img class="mb-3" src="https://th.bing.com/th/id/OIG.Gdx_CumPUo.C7SndHHvV?pid=ImgGn" width="500" height="500" alt="">
+        
+              </div>
+            </div>
+            <div class="row featurette border-bottom my-3">
+              <div class="col-md-7">
+                <h2 class="featurette-heading text-success">Türkiye'nin tüm enerjisini yenilenebilir kaynaklardan sağladığı bir dünya. <span class="text-muted">Güneş panelleri ve rüzgar türbinleri her yerde görülebilir.</span></h2>
+              </div>
+              <div class="col-md-5">
+                <img class="my-3" src="https://th.bing.com/th/id/OIG.TNO1mjC_M.jX2TupPjjr?pid=ImgGn&w=1024&h=1024&rs=1" width="500" height="500" alt="">
+        
+              </div>
+            </div>
+            <div class="row featurette border-bottom my-3">
+              <div class="col-md-7">
+                <h2 class="featurette-heading text-success">Türkiye, iklim değişikliğinin etkileriyle mücadele etmek için bir dizi yeni teknoloji geliştiriyor.<span class="text-muted">Deniz duvarları ve iklim kontrol sistemleri, Türkiye'yi iklim değişikliğinin yıkıcı etkilerinden koruyor.</span></h2>
+              </div>
+              <div class="col-md-5">
+                <img src="https://th.bing.com/th/id/OIG.Lv8CFP7xtL.2uFD5JCV1?pid=ImgGn" width="500" height="500" alt="">
+        
+              </div>
+            </div>
+            <div class="row featurette my-3">
+              <div class="col-md-7">
+                <h2 class="featurette-heading text-success" >Türkiye'nin dünyanın en eğitimli ve sağlıklı nüfusuna sahip olduğu bir dünya. <span class="text-muted">Herkesin yüksek kaliteli eğitim ve sağlık hizmetlerine erişimi var.</span></h2>
+              </div>
+              <div class="col-md-5">
+                <img src="https://th.bing.com/th/id/OIG.vdIAUZoIt0sfwXxU2zw.?pid=ImgGn" width="500" height="500" alt="">
+        
+              </div>
+      
+        
+            <hr class="featurette-divider">
+        
+        
+          </div>
+        
+        
+
+
+
+
+
+
+
+          <div class="gelecek">
+            <h1 class ="mt-5 text-center">
+              Gelecek hakkında ne düşünüyorsun?
+              Size ulaşalım!
+  
+            </h1>
+            <div class="container my-5">
+    
+  
+                <div class="card bg-light">
+              <form class="card-body" novalidate="" action="" method="" id="bootstrapForm">
+                
+                  <div class="form-group">
+                      <label class="h4 form-control-label" for="input1">İsim soyisim<abbr class="text-danger" title="This is required">*</abbr></label>
+                      <input type="text" class="form-control" name="i1" id="input1" required>
+                      <div class="valid-feedback">Company name looks good</div>
+                      <div class="invalid-feedback">Please enter your company name. This field is required</div>
+                  </div>
+                
+                
+                  <div class="form-group">
+                      <label class="h4 form-control-label" for="input1">Numara<abbr class="text-danger" title="This is required">*</abbr></label>
+                      <input type="tel" placeholder="5..-...-..."
+                         pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" name="i1" id="input1" required>
+                      <div class="valid-feedback">Phone # looks good</div>
+                      <div class="invalid-feedback">Please enter a phone # like 123-456-7890. This field is required.</div>
+                  </div>
+                
+              
+                
+                
+                  <div>
+                      <button type="submit" class="btn btn-secondary">Gönder</button>
+                  </div>  
+                
+              </form>
+              
+              
+              </div>
+              <!-- /.card -->
+              
+              </div>
+              <!-- /.container -->
+              
+              
+          </div>
+        <div class="container">
+            <footer class="row row-cols-5 py-5 my-5 border-top">
+              <div class="col">
+                <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <p class="text-muted">© 2023 </p>
+              </div>
+          
+              <div class="col">
+          
+              </div>
+          
+              <div class="col">
+                <h5>Bağlantılar</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kurumsal</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Projeler</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hakkında</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Türkiye Yüzyıl</a></li>
+                </ul>
+              </div>
+        
+          
+              
+              
+            </footer>
+            
+          </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script src="stricpt.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
